@@ -35,7 +35,6 @@ $certficate.SubjectName    = $certificateObject.SubjectName.Name
 $certficate.IssueDate      = $certificateObject.NotBefore
 $certficate.ExpirationDate = $certificateObject.NotAfter
 
-
 clear
 $certficate | Out-GridView -PassThru
 
